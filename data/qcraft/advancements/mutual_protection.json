@@ -1,0 +1,76 @@
+{
+    "display": {
+        "title": {
+            "text": "Mutual Protection"
+        },
+        "description": {
+            "text": "Let's all be freinds"
+        },
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "donkey": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:donkey"
+                }
+            }
+        },
+        "horse": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:horse"
+                }
+            }
+        },
+        "llama": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama"
+                }
+            }
+        },
+        "mule": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mule"
+                }
+            }
+        },
+        "cat": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cat"
+                }
+            }
+        },
+        "parrot": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parrot"
+                }
+            }
+        },
+        "wolf": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wolf"
+                }
+            }
+        }
+    },
+    "parent": "qcraft:15"
+}

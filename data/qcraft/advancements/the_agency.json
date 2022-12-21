@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "The Agency"
+        },
+        "description": {
+            "text": "Brew a cup of \"Tea\""
+        },
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "tea_get": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{display:{Name:'{\"text\":\"Tea\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+    "parent": "qcraft:5"
+}

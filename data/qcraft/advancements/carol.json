@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Reuniting With Friends"
+        },
+        "description": {
+            "text": "Find Carol"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "find carol": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Carol\"}'}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie"
+            }
+          }
+        ]
+      }
+        }
+    },
+    "parent": "qcraft:5"
+}

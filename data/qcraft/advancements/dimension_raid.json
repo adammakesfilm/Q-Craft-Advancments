@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "A Long Way from the Outpost..."
+        },
+        "description": {
+            "text": "Does that make them space pirates?"
+        },
+        "icon": {
+            "item": "minecraft:end_stone_bricks"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "raid nether": {
+            "trigger": "minecraft:voluntary_exile",
+            "conditions": {
+                "dimension": "the_nether"
+            }
+        },
+        "raid end": {
+            "trigger": "minecraft:voluntary_exile",
+            "conditions": {
+                "dimension": "the_end"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "raid nether",
+            "raid end"
+        ]
+    ],
+    "parent": "qcraft:20"
+}

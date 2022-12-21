@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Wololo"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:red_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "wooloo": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Wololo\"}'}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:evoker"
+            }
+          }
+        ]
+      }
+    }
+  },
+    "parent": "qcraft:5"
+}

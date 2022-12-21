@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Nuclear Fusion"
+        },
+        "description": {
+            "text": "Wait, what?"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"strike_them_all": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager"
+					},
+					{
+						"type": "minecraft:pig"
+					},
+					{
+						"type": "minecraft:creeper"
+					},
+					{
+						"type": "minecraft:mooshroom"
+					}					
+				]
+			}
+		}
+	},
+    "parent": "qcraft:20"
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Goat Simulator"
+        },
+        "description": {
+            "text": "You have Goat to be kidding me!"
+        },
+        "icon": {
+            "item": "minecraft:goat_horn"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"killed_by_goat": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "goat"
+				}
+			}
+		}
+	},
+    "parent": "qcraft:15"
+}

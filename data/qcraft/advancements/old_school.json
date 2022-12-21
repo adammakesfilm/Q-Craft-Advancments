@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "The Old School Way"
+        },
+        "description": {
+            "text": "Time to go fishin'"
+        },
+        "icon": {
+            "item": "minecraft:oak_boat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "fish_in_a_boat": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:boat"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+    "parent": "qcraft:5"
+}

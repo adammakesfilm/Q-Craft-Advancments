@@ -1,0 +1,60 @@
+{
+    "display": {
+        "title": {
+            "text": "Desperate Times"
+        },
+        "description": {
+            "text": "Eat everything bad for you"
+        },
+        "icon": {
+            "item": "minecraft:spider_eye"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"chicken": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["chicken"]
+				}
+			}
+		},
+		"pufferfish": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["pufferfish"]
+				}
+			}
+		},
+		"rotten_flesh": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["rotten_flesh"]
+				}
+			}
+		},
+		"spider_eye": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["spider_eye"]
+				}
+			}
+		},
+		"poisonous_potato": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["poisonous_potato"]
+				}
+			}
+		}
+	},
+    "parent": "qcraft:15"
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Taxman"
+        },
+        "description": {
+            "text": "You owe us a stack"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "pickup_64_emeralds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+    "parent": "qcraft:5"
+}

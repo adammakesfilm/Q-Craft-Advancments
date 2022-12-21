@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Field of Dreams"
+        },
+        "description": {
+            "text": "Go the distance"
+        },
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "all_the_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "slots": {
+          "full": {
+            "min": 30
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+    "parent": "qcraft:10"
+}

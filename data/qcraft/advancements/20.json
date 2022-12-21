@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "20 Points"
+        },
+        "description": {
+            "text": "Challenges worth 20 points"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "instant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [],
+        "location": {
+          "position": {
+            "y": {
+              "min": -64
+            }
+          }
+        }
+      }
+    }
+  },
+    "parent": "qcraft:mainroot"
+}

@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "The Paper Trade"
+        },
+        "description": {
+            "text": "Stock up for trading"
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "have_paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "slots": {
+          "full": {
+            "min": 20
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+    "parent": "qcraft:10"
+}

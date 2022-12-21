@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Toasted Marshmallo"
+        },
+        "description": {
+            "text": "Time for S'mores"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:trident"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "qcraft:15"
+}

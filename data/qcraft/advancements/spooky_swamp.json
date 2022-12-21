@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Spooky Swamp"
+        },
+        "description": {
+            "text": "It's Haunted"
+        },
+        "icon": {
+            "item": "minecraft:jack_o_lantern"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "place jack in swamp": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:jack_o_lantern",
+                "location": {
+                    "biome": "minecraft:swamp"
+                }
+            }
+        }
+    },
+    "parent": "qcraft:5"
+}

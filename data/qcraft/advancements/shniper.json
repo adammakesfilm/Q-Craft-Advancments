@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Shniper"
+        },
+        "description": {
+            "text": "Damn Aimbot"
+        },
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"shulker_bullet": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "shulker",
+						"distance": {
+							"horizontal": {
+								"min": 50.0
+							}
+						}
+					},
+					"direct_entity": {
+						"type": "shulker_bullet"
+					}
+				}
+			}
+		}
+	},
+    "parent": "qcraft:15"
+}

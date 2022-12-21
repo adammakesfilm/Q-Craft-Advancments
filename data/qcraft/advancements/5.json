@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "5 Points"
+        },
+        "description": {
+            "text": "Challenges worth 5 points"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "instant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [],
+        "location": {
+          "position": {
+            "y": {
+              "min": -64
+            }
+          }
+        }
+      }
+    }
+  },
+    "parent": "qcraft:mainroot"
+}

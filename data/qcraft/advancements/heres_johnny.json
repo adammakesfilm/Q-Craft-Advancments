@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Here's Johnny!"
+        },
+        "description": {
+            "text": "This could never backfire..."
+        },
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killed by johnny": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator",
+                    "nbt": "{Johnny:1b}"
+                }
+            }
+        }
+    },
+    "parent": "qcraft:5"
+}

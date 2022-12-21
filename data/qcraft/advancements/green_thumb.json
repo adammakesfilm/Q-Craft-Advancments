@@ -1,0 +1,110 @@
+{
+    "display": {
+        "title": {
+            "text": "Green Thumb"
+        },
+        "description": {
+            "text": "Gotta plant them all!"
+        },
+        "icon": {
+            "item": "minecraft:flower_pot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dandelion": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dandelion"
+            }
+        },
+        "poppy": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:poppy"
+            }
+        },
+        "orchid": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:blue_orchid"
+            }
+        },
+        "allum": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:allium"
+            }
+        },
+        "bluelet": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:azure_bluet"
+            }
+        },
+        "red tulip": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:red_tulip"
+            }
+        },
+        "white tulip": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:white_tulip"
+            }
+        },
+        "pink tulip": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:pink_tulip"
+            }
+        },
+        "oxeye": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:oxeye_daisy"
+            }
+        },
+        "sunflower": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:sunflower"
+            }
+        },
+        "liliac": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:lilac"
+            }
+        },
+        "cornflower": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:cornflower"
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:wither_rose"
+            }
+        },
+        "azalea": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:flowering_azalea"
+            }
+        },
+        "spore": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:spore_blossom"
+            }
+        }
+    },
+    "parent": "qcraft:10"
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "recovery_compass"
+		},
+		"title": "Death Detector",
+		"description": "This place seems familar"
+	},
+	"parent": "qcraft:20",
+	"criteria": {
+		"recovery_compass": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["recovery_compass"]
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+    "display": {
+        "title": {
+            "text": "A Noob's Death"
+        },
+        "description": {
+            "text": "The most noobish death, ever!"
+        },
+        "icon": {
+            "item": "minecraft:magma_cream"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "magma": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:magma_cube"
+                }
+            }
+        },
+        "slime": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime"
+                }
+            }
+        },
+        "endermite": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:endermite"
+                }
+            }
+        },
+        "silverfish": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:silverfish"
+                }
+            }
+        }
+    },
+    "parent": "qcraft:15"
+}

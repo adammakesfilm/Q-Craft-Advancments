@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_bucket"
+    },
+    "title": "Axolotl of them",
+    "description": "We're gonna need a bigger bucket",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "qcraft:20",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:0}"
+          },
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:1}"
+          },
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:2}"
+          },
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:3}"
+          },
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:4}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+    "display": {
+        "title": {
+            "text": "Across the Seven Seas"
+        },
+        "description": {
+            "text": "Explore all the ocean biomes"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+		"ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "ocean"
+					}
+				}
+			}
+		},
+		"frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frozen_ocean"
+					}
+				}
+			}
+		},
+		"deep_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_ocean"
+					}
+				}
+			}
+		},
+		"warm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "warm_ocean"
+					}
+				}
+			}
+		},
+		"lukewarm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "lukewarm_ocean"
+					}
+				}
+			}
+		},
+		"cold_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "cold_ocean"
+					}
+				}
+			}
+		},
+		"deep_lukewarm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_lukewarm_ocean"
+					}
+				}
+			}
+		},
+		"deep_cold_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_cold_ocean"
+					}
+				}
+			}
+		},
+		"deep_frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_frozen_ocean"
+					}
+				}
+			}
+		}
+	},
+    "parent": "qcraft:20"
+}

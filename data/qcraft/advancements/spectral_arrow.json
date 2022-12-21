@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Nowhere to Hide"
+        },
+        "description": {
+            "text": "n'échappe à mon regard"
+        },
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spectral arrow": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:spectral_arrow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "qcraft:10"
+}
