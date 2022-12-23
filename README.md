@@ -1,4 +1,4 @@
-# Q-Craft-Advancments
+# Q-Craft Achievement Hunt
 This datapack adds an additional advancement tab with advancements meant for the members of the Q-Craft SMP
 
 This pack adds 40 additional advancements. Each one seperated in to 4 point categories valued at 5, 10, 15 and 20.
