@@ -1,3 +1,11 @@
+<p align="center">
+THIS REPO IS NOT LONGER UPDATED
+</p>
+<p align="center">
+<a href="https://github.com/adammakesfilm"><img alt="Repo is no longer updated" src="https://img.shields.io/github/last-commit/adammakesfilm/qcraft-achievement-hunt?color=red&style=for-the-badge">
+</p>
+
+---
 # Q-Craft Achievement Hunt
 This datapack adds an additional advancement tab with advancements meant for the members of the Q-Craft SMP
 
